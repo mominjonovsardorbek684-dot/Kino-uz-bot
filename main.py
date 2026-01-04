@@ -1,10 +1,10 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8288124245:AAFj-OwgSP6qfQJp7sGLcg3qL9HhuWGrsR8"
+TOKEN = "8540907111:AAHSC62-lhTEfCcDssBn4TM8WX4TSSFzZOM"
 CHANNEL = "@kinobotda"
 
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def start(update: AAFj-OwgSP6qfQJp7sGLcg3qL9HhuWGrsR8, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "🎬 Kino botga xush kelibsiz!\n\n"
         "Kino kodini yuboring.\n"
